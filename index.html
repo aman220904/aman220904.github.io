@@ -49,7 +49,7 @@
       padding-bottom: 5px;
     }
 
-    .about, .interests, .contact {
+    .about, .chef, .interests, .contact {
       background: white;
       padding: 25px;
       margin-bottom: 30px;
@@ -79,29 +79,55 @@
     a:hover {
       text-decoration: underline;
     }
+
+    .chef img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .chef-quote {
+      font-style: italic;
+      color: #444;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Amandeep</h1>
-    <p>Living my chapter 🇨🇦 | Exploring, Learning, and Growing</p>
+    <p>Living my chapter 🇨🇦 | Chef & Creator | Exploring, Learning, and Growing</p>
   </header>
 
   <section>
     <div class="about">
       <h2>About Me</h2>
       <p>
-        Hello! I'm <strong>Amandeep</strong>, currently living in Canada. I’m passionate about exploring new opportunities, learning about technology, and growing both personally and professionally.
-        I enjoy creating digital projects, developing websites, and discovering new skills that help me grow every day.
+        Hello! I'm <strong>Amandeep</strong>, currently living in Canada. I’m passionate about creativity, technology, and cooking. 
+        I enjoy learning new things, building digital projects, and expressing my ideas through both design and food.
+      </p>
+    </div>
+
+    <div class="chef">
+      <h2>Chef Life 👨‍🍳</h2>
+      <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=60" alt="Chef at work">
+      <p>
+        Alongside my digital journey, I’m also a dedicated chef who loves experimenting with flavors and bringing creativity to every plate.
+        From classic Punjabi dishes to modern fusion recipes, I find joy in crafting meals that tell a story.
+      </p>
+      <p class="chef-quote">
+        “Cooking is an art — every dish is a new canvas.”
       </p>
     </div>
 
     <div class="interests">
       <h2>My Interests</h2>
       <ul>
+        <li>Cooking & Culinary Art</li>
         <li>Web Development & Design</li>
         <li>Creative Projects & Problem Solving</li>
-        <li>Learning New Technologies</li>
         <li>Exploring New Cultures and Ideas</li>
       </ul>
     </div>
@@ -116,7 +142,7 @@
   </section>
 
   <footer>
-    <p>© 2025 Amandeep | Built with ❤ and passion</p>
+    <p>© 2025 Amandeep | Chef & Creator | Built with ❤ and passion</p>
   </footer>
 </body>
 </html>
